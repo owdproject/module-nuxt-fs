@@ -1,6 +1,7 @@
 import { ref, watch } from 'vue'
 import { fs } from '@zenfs/core'
-import { shellEscape, type IWindowController } from '@owdproject/core'
+import { shellEscape } from '@owdproject/core'
+import type { IWindowController } from '@owdproject/nuxt'
 
 import { useApplicationManager } from '@owdproject/nuxt/runtime/composables/useApplicationManager'
 import { useDesktopDialogs } from '@owdproject/nuxt/runtime/composables/useDesktopDialogs'

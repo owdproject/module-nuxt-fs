@@ -1,4 +1,4 @@
-import type { IWindowController } from '@owdproject/core'
+import type { IWindowController } from '@owdproject/nuxt'
 import { useExplorerStore } from '../stores/storeExplorer'
 
 export type DesktopMenuItem = {

@@ -1,4 +1,4 @@
-import type { IWindowController } from '@owdproject/core'
+import type { IWindowController } from '@owdproject/nuxt'
 import { computed, onUnmounted, reactive, ref, watch } from 'vue'
 
 export type ExplorerNavSnapshot = { paths: string[]; index: number }

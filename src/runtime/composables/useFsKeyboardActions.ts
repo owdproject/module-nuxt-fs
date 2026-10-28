@@ -1,6 +1,6 @@
 import { watchEffect } from 'vue'
 import { useMagicKeys } from '@vueuse/core'
-import type { IWindowController } from '@owdproject/core'
+import type { IWindowController } from '@owdproject/nuxt'
 
 export function useFsKeyboardActions(
   owdWindow: IWindowController,
