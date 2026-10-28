@@ -1,12 +1,11 @@
 import { ref, watch } from 'vue'
 import { fs } from '@zenfs/core'
-import type { IWindowController } from '@owdproject/core'
+import { shellEscape, type IWindowController } from '@owdproject/core'
 
-import { useApplicationManager } from '@owdproject/core/runtime/composables/useApplicationManager'
-import { useDesktopDialogs } from '@owdproject/core/runtime/composables/useDesktopDialogs'
-import { useDesktopDefaultAppsStore } from '@owdproject/core/runtime/stores/storeDesktopDefaultApps'
-import { shellEscape } from '@owdproject/core/runtime/utils/utilTerminal'
-import { useDesktopShellIdentity } from '@owdproject/core/runtime/composables/useDesktopShellIdentity'
+import { useApplicationManager } from 'nuxt-desktop/runtime/composables/useApplicationManager'
+import { useDesktopDialogs } from 'nuxt-desktop/runtime/composables/useDesktopDialogs'
+import { useDesktopDefaultAppsStore } from 'nuxt-desktop/runtime/stores/storeDesktopDefaultApps'
+import { useDesktopShellIdentity } from 'nuxt-desktop/runtime/composables/useDesktopShellIdentity'
 
 import createExplorerFsOperations from './useExplorerFsOperations'
 import { useFsClipboard } from './useFsClipboard'

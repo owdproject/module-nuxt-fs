@@ -1,5 +1,6 @@
+import type { NuxtModule } from '@nuxt/schema'
 import { addImportsDir, addPlugin, createResolver } from '@nuxt/kit'
-import { defineDesktopModule } from '@owdproject/core/kit/authoring'
+import { defineDesktopModule } from 'nuxt-desktop'
 import type { UserConfig } from 'vite'
 
 const FS_OPTIMIZE_DEPS = [
@@ -15,7 +16,7 @@ function mergeOptimizeDepsInclude(opt?: { include?: string[] }) {
   }
 }
 
-export default defineDesktopModule({
+const module: NuxtModule<any> = defineDesktopModule({
   meta: {
     name: 'desktop-module-fs',
     configKey: 'fs',
@@ -97,3 +98,6 @@ export default defineDesktopModule({
     })
   },
 })
+
+export default module
+

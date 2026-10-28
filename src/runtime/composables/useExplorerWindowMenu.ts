@@ -1,6 +1,15 @@
 import type { IWindowController } from '@owdproject/core'
-import type { DesktopMenuItem } from '@owdproject/core/runtime/types/desktopMenu'
 import { useExplorerStore } from '../stores/storeExplorer'
+
+export type DesktopMenuItem = {
+  label?: string
+  icon?: string
+  command?: () => void
+  disabled?: boolean
+  separator?: boolean
+  items?: DesktopMenuItem[]
+  [key: string]: any
+}
 
 export type ExplorerWindowMenuT = (
   key: string,
