@@ -1,6 +1,6 @@
 import { useRuntimeConfig } from 'nuxt/app'
 import { computed, ref, watch } from 'vue'
-import { useDesktopShellIdentity } from 'nuxt-desktop/runtime/composables/useDesktopShellIdentity'
+import { useDesktopShellIdentity } from '@owdproject/nuxt/runtime/composables/useDesktopShellIdentity'
 import {
   filterRecentEntries,
   readRecentFilesRegistry,

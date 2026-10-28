@@ -1,4 +1,4 @@
-import { useDesktopDialogs } from 'nuxt-desktop/runtime/composables/useDesktopDialogs'
+import { useDesktopDialogs } from '@owdproject/nuxt/runtime/composables/useDesktopDialogs'
 import { explorerEntryAbsolutePath } from '../utils/utilExplorerEntryPath'
 import type { ExternalFileEntry } from '../utils/utilExternalFileImport'
 import { isInvalidMoveTarget } from '../utils/utilExplorerMove'

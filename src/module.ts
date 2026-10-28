@@ -1,12 +1,13 @@
 import type { NuxtModule } from '@nuxt/schema'
 import { addImportsDir, addPlugin, createResolver } from '@nuxt/kit'
-import { defineDesktopModule } from 'nuxt-desktop'
+import { defineDesktopModule } from '@owdproject/nuxt'
 import type { UserConfig } from 'vite'
 
 const FS_OPTIMIZE_DEPS = [
-  '@zenfs/core',
-  '@zenfs/dom',
-  '@zenfs/archives',
+  '@owdproject/module-fs > @owdproject/fs',
+  '@owdproject/module-fs > @zenfs/core',
+  '@owdproject/module-fs > @zenfs/dom',
+  '@owdproject/module-fs > @zenfs/archives',
 ] as const
 
 function mergeOptimizeDepsInclude(opt?: { include?: string[] }) {

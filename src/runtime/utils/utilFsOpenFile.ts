@@ -1,6 +1,6 @@
 import { shellEscape } from '@owdproject/core'
-import { useApplicationManager } from 'nuxt-desktop/runtime/composables/useApplicationManager'
-import { useDesktopDefaultAppsStore } from 'nuxt-desktop/runtime/stores/storeDesktopDefaultApps'
+import { useApplicationManager } from '@owdproject/nuxt/runtime/composables/useApplicationManager'
+import { useDesktopDefaultAppsStore } from '@owdproject/nuxt/runtime/stores/storeDesktopDefaultApps'
 import { getAppByFilename, getFilename } from './utilFileSystem'
 
 /** Open a VFS file with the configured default app for its extension. */

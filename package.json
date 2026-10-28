@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/module-fs",
-  "version": "0.0.6",
+  "version": "4.0.0-alpha.2",
   "description": "Virtual filesystem module for Open Web Desktop",
   "keywords": [
     "owd-client",
@@ -54,23 +54,23 @@
   },
   "dependencies": {
     "@nuxt/kit": "^4.4.6",
-    "@owdproject/fs": "workspace:*",
+    "@owdproject/fs": "^4.0.0-alpha.2",
     "defu": "^6.1.7",
     "@zenfs/archives": "^1.3.6",
     "@zenfs/core": "^2.5.6",
     "@zenfs/dom": "^1.2.9",
     "vue3-selecto": "^1.12.3",
-    "nuxt-desktop": "workspace:*"
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "^4.4.6",
-    "@owdproject/core": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.2",
     "nuxt": "^4.4.6",
     "typescript": "~6.0.3"
   },
   "peerDependencies": {
-    "@owdproject/core": ">=4.0.0-alpha.0",
-    "nuxt-desktop": ">=1.0.0"
+    "@owdproject/core": "^4.0.0-alpha.2",
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   }
 }
