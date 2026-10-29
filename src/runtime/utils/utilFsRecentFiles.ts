@@ -1,4 +1,4 @@
-export type { FsRecentFileEntry } from '@owdproject/fs'
+export type { FsRecentFileEntry } from '@owdproject/module-fs'
 export {
   vfsDirname,
   vfsBasename,
@@ -8,4 +8,4 @@ export {
   buildRecentEntry,
   upsertRecentEntry,
   filterRecentEntries,
-} from '@owdproject/fs'
+} from '@owdproject/module-fs'

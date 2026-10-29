@@ -1,4 +1,4 @@
-import { fs } from '@zenfs/core'
+import { fs } from '@owdproject/module-fs'
 import { explorerEntryAbsolutePath } from './utilExplorerEntryPath'
 
 export type ExternalFileEntry = {

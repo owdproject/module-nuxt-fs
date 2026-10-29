@@ -1,4 +1,4 @@
-import { fs } from '@zenfs/core'
+import { fs } from '@owdproject/module-fs'
 
 export type ExplorerEntryMetadata = {
   stats: unknown | null
@@ -14,7 +14,7 @@ const emptyMetadata = (): ExplorerEntryMetadata => ({
   fileContent: null,
 })
 
-/** Load stat + optional utf-8 preview for an explorer file row (ZenFS only in module-fs). */
+/** Load stat + optional utf-8 preview for an explorer file row (ZenFS-backed via @owdproject/module-fs). */
 export function fetchExplorerEntryMetadata(
   absolutePath: string,
   onResult: (meta: ExplorerEntryMetadata) => void,

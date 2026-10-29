@@ -4,10 +4,10 @@ import { defineDesktopModule } from '@owdproject/nuxt'
 import type { UserConfig } from 'vite'
 
 const FS_OPTIMIZE_DEPS = [
-  '@owdproject/module-fs > @owdproject/fs',
-  '@owdproject/module-fs > @zenfs/core',
-  '@owdproject/module-fs > @zenfs/dom',
-  '@owdproject/module-fs > @zenfs/archives',
+  '@owdproject/module-nuxt-fs > @owdproject/module-fs',
+  '@owdproject/module-nuxt-fs > @zenfs/core',
+  '@owdproject/module-nuxt-fs > @zenfs/dom',
+  '@owdproject/module-nuxt-fs > @zenfs/archives',
 ] as const
 
 function mergeOptimizeDepsInclude(opt?: { include?: string[] }) {
@@ -19,7 +19,7 @@ function mergeOptimizeDepsInclude(opt?: { include?: string[] }) {
 
 const module: NuxtModule<any> = defineDesktopModule({
   meta: {
-    name: 'desktop-module-fs',
+    name: 'desktop-nuxt-fs',
     configKey: 'fs',
   },
   defaults: {
@@ -76,7 +76,7 @@ const module: NuxtModule<any> = defineDesktopModule({
           '@owdproject/module-docs/register'
         )
         registerOwdDocsSource(_nuxt, {
-          id: 'module-fs',
+          id: 'nuxt-fs',
           cwd: resolve('./content'),
           include: 'docs/**',
           prefix: '/docs/modules/filesystem',

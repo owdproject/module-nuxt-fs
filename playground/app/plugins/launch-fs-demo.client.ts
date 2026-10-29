@@ -1,7 +1,7 @@
 import { nextTick } from 'vue'
 import { defineNuxtPlugin } from 'nuxt/app'
 import { useApplicationManager } from '@owdproject/nuxt/runtime/composables/useApplicationManager'
-import { openVfsFile } from '@owdproject/module-fs/runtime/utils/utilFsOpenFile'
+import { openVfsFile } from '@owdproject/module-nuxt-fs/runtime/utils/utilFsOpenFile'
 
 export default defineNuxtPlugin({
   name: 'module-fs-playground-launch',

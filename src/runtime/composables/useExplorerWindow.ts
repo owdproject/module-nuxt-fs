@@ -1,5 +1,5 @@
 import { ref, watch } from 'vue'
-import { fs } from '@zenfs/core'
+import { fs } from '@owdproject/module-fs'
 import { shellEscape } from '@owdproject/core'
 import type { IWindowController } from '@owdproject/nuxt'
 

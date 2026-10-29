@@ -3,7 +3,7 @@ import {
   getAppByFilename as getAppByFilenameCore,
   getFilename as getFilenameCore,
   getFileExtension,
-} from '@owdproject/fs'
+} from '@owdproject/module-fs'
 
 export function getAppByFilename(filename: string): string | null {
   const runtimeConfig = useRuntimeConfig()

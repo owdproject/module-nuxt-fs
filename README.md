@@ -20,7 +20,7 @@ This module enables a filesystem allowing [ZenFS](https://github.com/zen-fs/core
 ## Installation
 
 ```bash
-pnpm desktop add @owdproject/module-fs
+pnpm desktop add @owdproject/module-nuxt-fs
 ```
 
 With in-app documentation, install **`@owdproject/module-docs` before** this module in `desktop.config.ts` so FS docs pages are registered (`/docs/modules/filesystem/...`).

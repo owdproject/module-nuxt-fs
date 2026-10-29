@@ -9,7 +9,7 @@ export type ExplorerQuickAccessPin = {
 }
 
 export const useExplorerStore = defineStore(
-  'desktop/module-fs/explorer',
+  'desktop/nuxt-fs/explorer',
   () => {
     const navExpandedKeys = ref<string[]>(['quickAccess', 'thisPc'])
     const quickAccessPins = ref<ExplorerQuickAccessPin[]>([])

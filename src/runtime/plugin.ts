@@ -1,5 +1,5 @@
 import { defineNuxtPlugin } from 'nuxt/app'
-import { createVirtualFileSystem } from '@owdproject/fs'
+import { createVirtualFileSystem } from '@owdproject/module-fs'
 import { watch } from 'vue'
 import { useDesktopShellIdentity } from '@owdproject/nuxt/runtime/composables/useDesktopShellIdentity'
 
