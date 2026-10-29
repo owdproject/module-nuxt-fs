@@ -1,7 +1,8 @@
 {
   "name": "@owdproject/module-fs",
   "version": "4.0.0-alpha.3",
-  "description": "Virtual filesystem module for Open Web Desktop",
+  "private": true,
+  "description": "Virtual filesystem module for Open Web Desktop (WIP: pending agnostic refactor)",
   "keywords": [
     "owd-client",
     "owd-modules"
