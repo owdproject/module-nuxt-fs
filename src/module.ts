@@ -4,10 +4,10 @@ import { defineDesktopModule } from '@owdproject/nuxt'
 import type { UserConfig } from 'vite'
 
 const FS_OPTIMIZE_DEPS = [
-  '@owdproject/module-nuxt-fs > @owdproject/module-fs',
-  '@owdproject/module-nuxt-fs > @zenfs/core',
-  '@owdproject/module-nuxt-fs > @zenfs/dom',
-  '@owdproject/module-nuxt-fs > @zenfs/archives',
+  '@owdproject/nuxt-module-fs > @owdproject/module-fs',
+  '@owdproject/nuxt-module-fs > @zenfs/core',
+  '@owdproject/nuxt-module-fs > @zenfs/dom',
+  '@owdproject/nuxt-module-fs > @zenfs/archives',
 ] as const
 
 function mergeOptimizeDepsInclude(opt?: { include?: string[] }) {

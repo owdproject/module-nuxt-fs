@@ -3,7 +3,7 @@ title: Filesystem module
 description: Virtual filesystem (ZenFS) for Open Web Desktop
 ---
 
-# @owdproject/module-nuxt-fs
+# @owdproject/nuxt-module-fs
 
 The filesystem module mounts a virtual filesystem in the browser using ZenFS. It powers the Explorer experience when your theme includes it.
 
@@ -12,7 +12,7 @@ The filesystem module mounts a virtual filesystem in the browser using ZenFS. It
 Add both documentation and FS modules to `desktop.config.ts` (docs first):
 
 ```ts
-modules: ['@owdproject/module-docs', '@owdproject/module-nuxt-fs'],
+modules: ['@owdproject/module-docs', '@owdproject/nuxt-module-fs'],
 ```
 
 ## Configuration

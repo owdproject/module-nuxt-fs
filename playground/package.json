@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/module-nuxt-fs-playground",
+  "name": "@owdproject/nuxt-module-fs-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,11 +8,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/app-nuxt-classic-audioplayer": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-app-classic-audioplayer": "^4.0.0-alpha.3",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/module-nuxt-fs": "workspace:*",
-    "@owdproject/module-nuxt-pinia-persistence": "^4.0.0-alpha.3",
-    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-module-fs": "workspace:*",
+    "@owdproject/nuxt-module-pinia-persistence": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.4"
   }
 }

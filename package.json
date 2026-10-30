@@ -1,17 +1,17 @@
 {
-  "name": "@owdproject/module-nuxt-fs",
+  "name": "@owdproject/nuxt-module-fs",
   "version": "4.0.0-alpha.3",
-  "private": true,
+  "private": false,
   "description": "Nuxt virtual filesystem module for Open Web Desktop (wraps the agnostic @owdproject/module-fs engine)",
   "keywords": [
     "owd-client",
     "owd-modules"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/owdproject/owd-nuxt-fs#readme",
+  "homepage": "https://github.com/owdproject/nuxt-module-fs#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owdproject/owd-nuxt-fs.git"
+    "url": "git+https://github.com/owdproject/nuxt-module-fs.git"
   },
   "author": {
     "name": "Open Web Desktop Team",
