@@ -69,7 +69,7 @@ export const useExplorerStore = defineStore(
     }
   },
   {
-    // @ts-expect-error optional @owdproject/module-persistence
+    // @ts-expect-error optional @owdproject/nuxt-module-pinia-persistence
     persistedState: {
       persist: true,
     },
