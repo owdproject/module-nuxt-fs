@@ -12,7 +12,7 @@
     "@owdproject/core": "^4.0.0-alpha.3",
     "@owdproject/nuxt-module-fs": "workspace:*",
     "@owdproject/nuxt-module-pinia-persistence": "^4.0.0-alpha.3",
-    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3",
     "nuxt": "^4.4.4"
   }
 }
