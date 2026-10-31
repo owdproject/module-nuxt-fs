@@ -1,5 +1,12 @@
 # Filesystem layer audit (OWD)
 
+<!-- drift-guard: status=plan -->
+<!-- Questo documento descrive lo stato OBIETTIVO della separazione VFS/UI, non quello
+     attuale. `@owdproject/kit-fs` e `apps/app-explorer` NON esistono ancora in questo
+     repo: i nomi citati sono il bersaglio del refactor. Il marcatore qui sopra dice al
+     guard di trattare i simboli assenti come avvisi. Toglierlo quando il refactor e'
+     completo, cosi' il guard torna a verificare il documento come descrizione del presente. -->
+
 Documento di mappatura per separare **VFS / integrazione** da **UI tema** e per il futuro pacchetto `@owdproject/kit-fs` sotto `client/packages/`.
 
 ## 1. Stack e bootstrap
