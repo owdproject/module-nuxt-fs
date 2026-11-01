@@ -55,7 +55,8 @@
     "dev:build": "nuxt build playground",
     "dev:generate": "NUXT_APP_BASE_URL=${NUXT_APP_BASE_URL:-/module-fs/} nuxt generate playground",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && cd playground && pnpm exec nuxt prepare",
-    "validate": "desktop validate ."
+    "validate": "desktop validate .",
+    "test:browser": "node --test tests/filesystem-browser.test.mjs"
   },
   "dependencies": {
     "@nuxt/kit": "^4.4.6",
@@ -72,6 +73,7 @@
     "@nuxt/schema": "^4.4.6",
     "@owdproject/core": "^4.0.0-alpha.3",
     "nuxt": "^4.4.6",
+    "playwright": "^1.56.0",
     "typescript": "~6.0.3"
   },
   "peerDependencies": {
